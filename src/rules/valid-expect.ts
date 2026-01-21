@@ -154,7 +154,6 @@ export default createEslintRule<
         properties: {
           alwaysAwait: {
             type: 'boolean',
-            default: false,
           },
           asyncMatchers: {
             type: 'array',

@@ -36,7 +36,6 @@ export default defineConfig(
       // Demoted to warnings so these can be addressed gradually
       'eslint-plugin/require-meta-default-options': 'warn',
       'eslint-plugin/require-meta-schema-description': 'warn',
-      'eslint-plugin/no-meta-schema-default': 'warn',
     },
   },
   {

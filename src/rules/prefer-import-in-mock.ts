@@ -28,7 +28,6 @@ export default createEslintRule<Options, MESSAGE_ID>({
         properties: {
           fixable: {
             type: 'boolean',
-            default: true,
           },
         },
         additionalProperties: false,

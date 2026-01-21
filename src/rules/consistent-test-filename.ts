@@ -33,12 +33,10 @@ export default createEslintRule<
           pattern: {
             type: 'string',
             format: 'regex',
-            default: defaultPattern.source,
           },
           allTestPattern: {
             type: 'string',
             format: 'regex',
-            default: defaultTestsPattern.source,
           },
         },
       },

@@ -94,11 +94,9 @@ export default createEslintRule<
           },
           ignoreTopLevelDescribe: {
             type: 'boolean',
-            default: false,
           },
           lowercaseFirstCharacterOnly: {
             type: 'boolean',
-            default: true,
           },
         },
         additionalProperties: false,
